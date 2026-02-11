@@ -7,7 +7,7 @@ export default function AddTodo() {
 
     return (
         <div>
-            <input value={text} onChange={e => setText(e.target.value)} />
+            <input value={ text } onChange={e => setText(e.target.value)} />
             <button onClick={() => {addTodo(text); setText(""); }}>
                 Add
             </button>

@@ -11,7 +11,7 @@ export default function TodoList() {
                     <span style={{ textDecoration: todo.done ? "line-through" : "none"}} onClick={() => toggleTodo(todo.id)}>
                         {todo.text}
                     </span>
-                    <button onClick={() => deleteTodo(todo.id)}>❌</button>
+                    <button onClick={() => deleteTodo(todo.id)}> ❌</button>
                 </li>
             ))}
         </ul>

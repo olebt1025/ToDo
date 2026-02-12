@@ -26,3 +26,23 @@
   border: solid rgba(255, 255, 255, 0.87) 1px;
 }
 
+
+.light {
+  background: white;
+  color: black;
+  min-height: 100vh;
+  padding: 20px;
+  transition: .3s
+}
+
+.dark {
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  transition: .3s;
+}
+
+span {
+  border-bottom: #121212;
+}
